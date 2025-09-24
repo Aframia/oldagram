@@ -106,5 +106,20 @@ const postData = [{
             text: "Indeed, a symbol of our unity and strength"
         }
     ]
-}];
+},
+{
+    id: 4,
+    user: {
+        id: 10,
+        name: "Sandra Aframea Ofosu",
+        profilePicture: "profile.jpg"
+    },
+    image: "post.png",
+    caption: "Thank you for visiting my site.<a href='https://www.linkedin.com/in/sandraaframeaofosu' target='_blank'>Connect with me</a> don't forget to like and comment. #Inspiration",
+    likes: 300,
+    isLiked: false,
+    date: "September 24, 2025",
+    comments: []
+}
+];
 export default postData;
