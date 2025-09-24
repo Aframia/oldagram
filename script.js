@@ -20,7 +20,8 @@ data.map((post) => {
         <div class="post-actions" id="post-actions-${post.id}">
             <i class="fa-regular fa-heart icon" id="like-icon-${post.id}"></i>
             <i class="fa-regular fa-comment icon" id="comment-icon-${post.id}"></i>
-            <i class="fa-regular fa-paper-plane icon"></i>
+            <!--functionality will be worked on later ( just an alert for ux for now)-->
+            <i class="fa-regular fa-paper-plane icon" id="share-icon"></i>
         </div>
         <div class="post-likes">
             <p><span id="like-count-${post.id}">${post.likes}</span> likes</p>
@@ -64,6 +65,7 @@ document.querySelector("body").addEventListener("click", (e) => {
    if(e.target.id  === `comment-icon-4`){  
     showComments(4);
    }
+   if
 });
 
 //like button functionality
@@ -94,7 +96,7 @@ function showComments(postId) {
         commentsSection = document.createElement('div');
         commentsSection.setAttribute('id', `comments-section-${postId}`);
         commentsSection.classList.add('comments-section');
-
+       //remove this functionality later to html template
         const addCommentDiv = document.createElement('div');
         addCommentDiv.classList.add('add-comment');
         addCommentDiv.innerHTML = `
@@ -136,4 +138,8 @@ document.body.addEventListener('click', function(e) {
             inputField.value = '';
         }
     }
+});
+//share button functionality
+document.getElementById("share-icon").addEventListener("click", function() {
+    alert("Share functionality coming soon!");
 });
