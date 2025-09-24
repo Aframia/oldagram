@@ -61,6 +61,9 @@ body {
     cursor:pointer;
     color:#ff0000;
 }
+.liked{
+    color:#ff0000;
+}
 .post-likes{
     padding:0 10px;
     font-weight:bold;
