@@ -64,7 +64,7 @@ const postData = [{
                 id: 5,
                 name: "Alice Brown"
             },
-            text: "Yummy! Recipe please?"
+            text: "You are an inspiration"
         },
         {
             id: 2,
@@ -72,7 +72,7 @@ const postData = [{
                 id: 6,
                 name: "Bob White"
             },
-            text: "Looks so good!"
+            text: "Indeed, a true queen"
         }
     ]
 },

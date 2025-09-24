@@ -75,3 +75,31 @@ body {
     margin:0;
     line-height:1.5;
 }
+input{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-top:1px solid #eee;
+    font-size:1rem;
+}
+.post-comment{
+    border:none;
+    width:100%;
+    padding:10px;
+    background-color:#f0f0f0;
+    color: #000;
+    font-size:1rem;
+}
+.comments-section{
+    margin:0 10px 20px 10px;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #eee;
+}
+.comment{
+    margin-bottom:5px;
+}
+.comment strong{
+    margin-right:5px;
+}
+/* Add your custom styles here */
+/* For example, you can style the body, header, post, etc. */   
