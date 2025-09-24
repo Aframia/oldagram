@@ -65,7 +65,6 @@ document.querySelector("body").addEventListener("click", (e) => {
    if(e.target.id  === `comment-icon-4`){  
     showComments(4);
    }
-   if
 });
 
 //like button functionality
